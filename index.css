@@ -1,0 +1,331 @@
+body {
+    background-color: hwb(219 4% 52% / 0.272);
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notifications {
+    display: grid;
+    justify-content: space-between;
+    width: 41vw;
+    background-color: rgb(255, 251, 251);
+    height: 96vh;
+    position: relative;
+    left: 13vw;
+    border-radius: 20px;
+    padding: 0 2vw 0 2vw;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -2vh;
+}
+
+.heading h3,
+.heading h3 span,
+.heading #mark {
+    display: inline;
+}
+
+.heading h3 {
+    position: relative;
+    top: 3.5vh;
+    left: 2vw;
+    font-weight: 900;
+    font-size: 22px;
+    flex-direction: row;
+}
+
+.heading #mark {
+    position: relative;
+    top: 5.5vh;
+    right: -22vw;
+    font-size: medium;
+    font-weight: 300;
+    color: hsl(219, 12%, 42%);
+    /* flex-direction: row;
+    grid-template-columns: auto; */
+}
+
+.heading h3 span {
+    position: relative;
+    left: 11px;
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+    padding: 5px 11px 5px 11px;
+    border-radius: 9px;
+    /* flex-direction: row; */
+}
+
+.notification1 {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(211, 68%, 94%);
+    position: relative;
+    top: 1vh;
+    border-radius: 7px;
+    height: 8vh;
+    padding: 1vh;
+}
+
+#time1 {
+    position: relative;
+    top: -12vh;
+    left: 5.5vw;
+    color: hsl(219, 14%, 63%);
+}
+
+.notification2 {
+    background-color: hsl(211, 68%, 94%);
+    position: relative;
+    top: 2vh;
+    border-radius: 7px;
+    height: 8vh;
+    padding: 1vh;
+}
+
+.notification3 {
+    background-color: hsl(211, 68%, 94%);
+    position: relative;
+    top: 3.5vh;
+    border-radius: 7px;
+    height: 8vh;
+    padding: 1vh;
+}
+
+.notification4 {
+    position: relative;
+    top: 5vh;
+}
+
+.notification5 {
+    position: relative;
+    top: -18vh;
+}
+
+#noti5 {
+	position: relative;
+	top: -9vh;
+	left: 5.6vw;
+}
+
+#noti6 {
+    position: relative;
+    top: -9vh;
+    left: 5.6vw;
+}
+
+#time5 {
+	position: relative;
+	top: -20.6vh;
+	left: 5.6vw;
+	color: hsl(219, 14%, 63%);
+}
+
+#time6 {
+	position: relative;
+	top: -11.6vh;
+	left: 5.6vw;
+	color: hsl(219, 14%, 63%);
+}
+
+#time7 {
+	position: relative;
+	top: -10.6vh;
+	left: 5.6vw;
+	color: hsl(219, 14%, 63%);
+}
+
+#image {
+	position: relative;
+	right: -36vw;
+	top: -13vh;
+}
+
+.notification6 {
+	position: relative;
+	top: -39vh;
+}
+
+.notification7 {
+	position: relative;
+	top: -53vh;
+}
+
+#noti7 {
+	position: relative;
+	top: -9vh;
+	left: 5.6vw;
+}
+
+img {
+    width: 50px;
+    padding: 0.7vh 1vw 0 1vw;
+}
+
+#noti {
+    position: relative;
+    top: -8.5vh;
+    left: 5.5vw;
+}
+
+#time {
+    position: relative;
+    top: -10vh;
+    left: 5.4vw;
+    color: hsl(219, 14%, 63%);
+}
+
+#blue {
+    color: hsl(224, 21%, 14%);
+    font-weight: 1000;
+}
+
+#gray{
+    color: hsl(219, 12%, 42%);
+    font-weight: 800;
+}
+
+.notification4 #message {
+    border: 1px solid black;
+    position: relative;
+    top: -16vh;
+    left: 1.5vw;
+    padding: 1.5vh 1vw;
+    margin: 4vw;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    top: 49vh;
+    left: -18vw;
+}
+
+
+@media screen and (max-width : 376px) {
+    body {
+        width: 375px;
+        margin: 0vh -114.7vw;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .notifications {
+        display: flex;
+        flex-direction: column;
+        width: 647vw;
+        position: relative;
+        left: 121vw;
+        top: 2vh;
+    }
+
+    .heading #mark {
+        top: 5vh;
+        left: -2vw;
+    }
+
+    .notification1{
+        top: 0vh;
+    }
+  
+    .notification2{
+        top: 1vh;
+    }
+
+    .notification3{
+        top: 2vh;
+    }
+
+    .notification4{
+        top: 3vh;
+    }
+
+    .notification5 {
+        top: -13vh;
+    }
+
+    .notification6 {
+        top: -40vh;
+    }
+
+    .notification7 {
+        top: -55vh;
+    }
+
+    #noti5 {
+        display: flex;
+        flex-wrap: wrap;
+        top: -9vh;
+        left: 17vw;
+        white-space: break-spaces;
+        padding: 0 7vw 0 0vw;
+    }
+
+    #noti6 {
+        left: 16.6vw;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 2vh;
+    }
+
+    #noti7 {
+        top: -8.5vh;
+        left: 16vw;
+    }
+
+    #image {
+        right: -68vw;
+        top: -21vh;
+    }
+
+    #noti {
+        position: relative;
+        top: -8.5vh;
+        left: 16.5vw;
+        font-size: 2vh;
+        display: flex;
+        flex-wrap: wrap;
+        white-space: break-spaces;
+        line-height: 1.3vh;
+    }
+
+    #time{
+        left: 16.4vw;
+    }
+
+    #time1 {
+        position: relative;
+        top: -13vh;
+        left: 15.5vw;
+    }
+
+    #time5 {
+        /* position: relative; */
+        top: -24.6vh;
+        left: 16.6vw;
+        /* color: hsl(219, 14%, 63%); */
+    }
+    #time6 {
+        left: 16.6vw;
+    }
+
+    #time7 {
+        left: 16vw;
+    }
+
+    .notification4 #message {
+        top: -13vh;
+        left: 7.5vw;
+        margin: 8vw;
+        padding: 2vh;
+    }
+}
